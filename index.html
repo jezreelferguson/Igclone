@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script> 
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .centered-image img {
+            width: 100px; /* You can adjust this to make the image smaller */
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-image">
+        <img src="image/logo loader.png" alt="Logo">
+    </div>
+    <script>
+        setTimeout(() => {
+            window.location.href = "login.html";
+        }, 3000);
+    </script>
+</body>
+</html>
